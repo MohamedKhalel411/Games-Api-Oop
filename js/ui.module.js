@@ -51,29 +51,3 @@ export class Ui {
         document.getElementById("detailsData").innerHTML=detailsBox;
     }
 }
-// for(let i =0;i<data.length;i++){
-//     detailsBox+=`
-    // <div class="col-md-4">
-    //         <div class="left-details mt-3 p-2">
-    //             <h3 class="text-capitalize">details game</h3>
-    //             <img src="${data[i].thumbnail}" class="w-100 mt-4" alt="">
-    //         </div>
-    //     </div>
-    //     <div class="col-md-8">
-    //         <div class="details-info position-relative">
-    //             <div class="close-details-btn">
-    //                 <i id="closeDetails" class="fa-solid fa-x"> </i>
-    //             </div>
-                
-    //             <h3 class="text-capitalize title">title: <span>${data[i].title}</span></h3>
-    //             <div class="py-2 detailed">
-    //                 <p>category: <span class="highlighted" >${data[i].genre}</span></p>
-    //                 <p>platform: <span class="highlighted">${data[i].platform}</span></p>
-    //                 <p>satatus: <span class="highlighted">${data[i].status}</span></p>
-    //                 <p class="details-desc">${data[i].description}</p>
-    //             </div>
-                
-    //             <a class="show-game-btn text-decoration-none" href="${data[i].game_url}">Show Game</a>
-    //         </div>
-    // </div>`
-// 
